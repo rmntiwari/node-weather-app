@@ -28,7 +28,7 @@ button.addEventListener('click', (e)=>{
                 else{
                     let location = data.location;
                     let forcast = "current temprature is " + data.temperature + " degree centegrate and feels like " + data.feelslike+ " and  chances of rain is " + data.cloudcover + " percent";
-                    console.log(data);
+                    
                     message1.textContent=location;
                     message2.textContent=forcast;
                 }
